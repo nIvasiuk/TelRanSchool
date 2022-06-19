@@ -1,0 +1,65 @@
+
+
+
+
+h1 { 
+    color: brown;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    background-color: rgba(69, 118, 69, 0.877);
+
+
+}
+
+h2  {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: justify;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+
+h3 {
+    color: burlywood;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 400;
+    background-color: rgb(63, 56, 56);
+}
+
+
+h4 {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: justify;
+    font-size: 2rem;
+    font-weight: 300;
+    background-color: khaki;
+
+}
+
+img {
+    border-radius: 8px;
+    height: 450px;
+}
+
+a {
+    background-color: bisque;
+}
+
+.colored {
+    color: rgb(36, 68, 57);
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+ }
+
+.finish {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}

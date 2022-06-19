@@ -1,0 +1,40 @@
+span.iva {
+    color: rgb(14, 195, 47);
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(16, 108, 107);
+    text-align: center;
+    background-color: bisque;
+}
+
+h4 {
+    font-family: 'Amatic SC';
+
+}
+
+p {  
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    background-color: rgb(137, 210, 186);
+}
+
+img {
+    border-radius: 30px;
+    height: 450px;
+}
+
+
+.knopka {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.center {
+    margin: 2em auto;  
+    width: 50%;
+  }
