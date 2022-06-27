@@ -59,3 +59,10 @@ img {
   opacity: 5;
   transition: all 0.5s ease-out;
 }
+
+.titel {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
