@@ -3,6 +3,7 @@
 }
 * {
   margin: 0;
+  font-family: "Mirza", cursive;
 }
 
 .wrapper {
@@ -20,13 +21,41 @@
   padding: 1rem;
 }
 
+.content-container {
+  margin-top: 5rem;
+}
+
+.content {
+  width: 25rem;
+  margin: auto;
+  background: beige;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px gray;
+}
+
 .top {
   border-bottom: 1px solid var(--border-color);
-  padding: 1rem;
   background: rgb(151, 151, 197);
   height: 5rem;
   width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap");
+
+.avatar-container {
+  margin: 2rem 0;
+}
+
+.avatar {
+  width: 23rem;
+  border-radius: 12px;
+}
+
+img {
+  opacity: 5;
+  transition: all 0.5s ease-out;
 }
