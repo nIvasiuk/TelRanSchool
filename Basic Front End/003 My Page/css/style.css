@@ -1,0 +1,37 @@
+:root {
+  --border-color: grey;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  /*all hight view of sckreen 100% hight of browser- defoult adding prokrutka adn otstupy относительно экрана браузера*/
+}
+.left {
+  /*  width: 25%;*/
+  /* % относительно родительского элемента*/
+  width: 40rem;
+  border-right: 1px solid var(--border-color);
+  padding: 1rem 0.5rem;
+}
+
+.center {
+  /* width: 50%;*/
+  width: calc(100% - 40rem);
+  padding: 1rem;
+}
+
+/*   .right {
+    background:  rgb(42, 8, 128);
+    width: 25%;
+    }*/
+
+.top {
+  border-bottom: 1px solid var(--border-color);
+  height: 3rem;
+  padding: 1rem;
+}
