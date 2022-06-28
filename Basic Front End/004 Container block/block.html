@@ -3,36 +3,53 @@
   <head>
     <title>Document</title>
     <style>
-      .wrapper {
+      .wrapper div {
+        height: 30rem;
+        width: 30rem;
+
         display: flex;
+        justify-content: left;
+        align-items: center;
       }
 
-      .div1 {
+      .wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .block1 {
         background: rgb(223, 112, 112);
       }
 
-      .div2 {
+      .block2 {
         background: rgb(23, 228, 95);
       }
 
-      .div3 {
+      .block3 {
         background: pink;
       }
 
-      .div4 {
+      .block4 {
         background: rgb(10, 208, 188);
+      }
+
+      .div2.hover {
+        flex-direction: column;
       }
     </style>
   </head>
 
   <body>
     <div class="wrapper">
-      <div class="div1">1</div>
-      <div class="div2">
+      <div class="block1">1</div>
+      <div class="block2">
         2
-        <div class="div3">
+        <div class="block3">
           3
-          <div class="div4">
+          <div class="block4">
             4
             <div>4a</div>
             <div>4b</div>
