@@ -3,59 +3,53 @@
   <head>
     <title>Document</title>
     <style>
-      .wrapper div {
-        height: 30rem;
-        width: 30rem;
-
-        display: flex;
-        justify-content: left;
-        align-items: center;
-      }
-
-      .wrapper {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
-        height: 100vh;
-      }
-
       .block1 {
         background: rgb(223, 112, 112);
+        height: 30rem;
+        width: 30rem;
+        float: left;
+        margin: 30px;
       }
 
       .block2 {
-        background: rgb(23, 228, 95);
+        background: rgb(41, 221, 104);
+        height: calc(30rem / 2.5);
+        width: calc(30rem * 1.8);
+        float: right;
+        margin: 40px;
       }
 
       .block3 {
         background: pink;
+        height: calc(30rem / 2);
+        width: calc(30rem / 1.2);
+        float: left;
+        margin-left: 55px;
       }
 
-      .block4 {
+      .block4a {
         background: rgb(10, 208, 188);
+        height: calc(30rem / 4.5);
+        width: calc(30rem / 1.2);
+        float: right;
       }
 
-      .div2.hover {
-        flex-direction: column;
+      .block4b {
+        background: rgb(10, 208, 188);
+        height: calc(30rem / 4.5);
+        width: calc(30rem / 1.2);
+        float: right;
+        margin-top: 20px;
       }
     </style>
   </head>
 
   <body>
-    <div class="wrapper">
-      <div class="block1">1</div>
-      <div class="block2">
-        2
-        <div class="block3">
-          3
-          <div class="block4">
-            4
-            <div>4a</div>
-            <div>4b</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="block1">1</div>
+
+    <div class="block2">2</div>
+    <div class="block3">3</div>
+    <div class="block4a">4a</div>
+    <div class="block4b">4b</div>
   </body>
 </html>
