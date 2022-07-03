@@ -91,11 +91,52 @@
         .history1 {
           display: flex;
           justify-content: space-between;
-          align-items: baseline;
+          align-items: flex-start;
           margin: 10px;
 
           font-weight: 600;
           font-size: small;
+        }
+
+        .history-element1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: absolute;
+          left: 65px;
+          bottom: 200px;
+        }
+
+        .history-element2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: absolute;
+          left: 65px;
+          bottom: 154px;
+        }
+
+        .history-element3 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: absolute;
+          left: 65px;
+          bottom: 111px;
+        }
+
+        .history-element4 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: absolute;
+          left: 65px;
+          bottom: 70px;
+        }
+
+        .datum {
+          font-weight: lighter;
+          font-size: smaller;
         }
 
         .menu {
@@ -163,7 +204,13 @@
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png?20211218170823
           "
               alt=""
-            />Apple Store
+            />
+            <div class="history-element1">
+              <div>Apple Store</div>
+              <div>
+                <p class="datum">Today, 4:20 AM</p>
+              </div>
+            </div>
           </div>
           <div>-40.99</div>
         </div>
@@ -174,7 +221,13 @@
               src="https://www.w3schools.com/howto/img_avatar.png
           "
               alt=""
-            />Matthew
+            />
+            <div class="history-element2">
+              <div>Matthew</div>
+              <div>
+                <p class="datum">Yesterday</p>
+              </div>
+            </div>
           </div>
           <div>+1,255.00</div>
         </div>
@@ -185,7 +238,13 @@
               src="https://www.w3schools.com/howto/img_avatar.png
           "
               alt=""
-            />Jessica
+            />
+            <div class="history-element3">
+              <div>Jessica</div>
+              <div>
+                <p class="datum">Yesterday</p>
+              </div>
+            </div>
           </div>
           <div>+40.50</div>
         </div>
@@ -196,7 +255,13 @@
               src="https://cdn-icons-png.flaticon.com/512/356/356060.png
         "
               alt=""
-            />Discord Nitro
+            />
+            <div class="history-element4">
+              <div>Discord Nitro</div>
+              <div>
+                <p class="datum">10 May 2022</p>
+              </div>
+            </div>
           </div>
           <div>-40.99</div>
         </div>
