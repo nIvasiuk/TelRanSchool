@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Galery 2</title>
+
+    <style>
+      /* 
+        .first-class,
+        .second-class,
+        .nth-class {
+            bacground: wite;
+        }
+        */
+      .wrapper div {
+        position: absolute;
+        color: bisque;
+        font-size: 2rem;
+        width: 10rem;
+        height: 10rem;
+      }
+
+      .wrapper div:nth-child(1) {
+        bottom: 0;
+        right: 0;
+
+        background: blue;
+      }
+
+      .wrapper div:nth-child(2) {
+        bottom: 50%;
+        right: 40%;
+
+        background: rgb(124, 151, 18);
+      }
+
+      .wrapper div:nth-child(3) {
+        top: 0;
+        left: 0;
+
+        background: rgb(151, 18, 84);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </body>
+</html>

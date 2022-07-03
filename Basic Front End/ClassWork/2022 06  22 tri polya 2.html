@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personsl web site</title>
+
+    <style>
+
+        :root {
+            --border-color: grey;
+        
+        }
+        *{
+            margin: 0;
+            padding: 0; 
+            /*remoove otstupi po umol4aniju*/
+        }
+
+        .wrapper {
+            display: flex;
+            min-height: 100vh;  
+            /*all hight view of sckreen 100% hight of browser- defoult adding prokrutka adn otstupy относительно экрана браузера*/
+
+        }
+        .left {
+            
+           /*  width: 25%;*/
+             /* % относительно родительского элемента*/
+             width: 12rem;
+             border-right: 1px solid var(--border-color);
+             padding: 1rem .5rem;
+        }
+
+        .center {
+           
+           /* width: 50%;*/
+           width: calc(100% - 12rem);
+           padding: 1rem;
+        }
+
+      /*   .right {
+            background:  rgb(42, 8, 128);
+            width: 25%;
+            }*/
+
+.top {
+   border-bottom: 1px solid var(--border-color);
+   height: 3rem;
+    padding: 1rem;
+}
+
+    </style>
+
+  
+</head>
+
+<body>
+    <div class="top">
+        top block
+    </div>
+
+    <div class="wrapper"> 
+        <div class="left">LEFT PANEL</div>
+
+        <div class="center">CENTER BLOC</div>
+
+          <!--  <div class="right">RIGHT BLOCK</div>  -->
+    </div>
+
+</body>
+</html>

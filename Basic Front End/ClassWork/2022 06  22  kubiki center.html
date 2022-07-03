@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personsl web site</title>
+
+    <style>
+      :root {
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        /* 0 - remoove otstupi po umol4aniju*/
+      }
+
+      .wrapper div {
+        background: gray;
+        height: 3rem;
+        width: 3rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: all 0.2s ease-out;
+      }
+
+      .wrapper div:nth-child(odd) {
+        background: rgb(196, 84, 84);
+      }
+
+      .wrapper div:hover {
+        background: white;
+      }
+
+      .wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+    </div>
+  </body>
+</html>

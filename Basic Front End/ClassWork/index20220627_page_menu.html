@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+
+    <style>
+      * {
+        width: 0;
+        margin: 0;
+      }
+
+      .menu {
+        background: rgb(151, 151, 197);
+        height: 5rem;
+        width: 100vw;
+
+        position: fixed;
+        top: 0;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .menu a {
+        width: calc(100% / 4 - 2rem);
+        text-align: center;
+        text-decoration: none;
+        color: blue;
+        background: white;
+        border-radius: 8px;
+      }
+
+      body {
+        height: 200vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="menu">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Services</a>
+      <a href="">WebStore</a>
+    </div>
+  </body>
+</html>

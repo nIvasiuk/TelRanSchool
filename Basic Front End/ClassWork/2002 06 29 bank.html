@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+      }
+
+      @media screen and (max-width: 768px) {
+        .wrapper {
+          padding: 1rem;
+        }
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 2rem;
+        }
+        .header img {
+          width: 32px;
+          border-radius: 50%;
+        }
+        .header h1 {
+          font-size: 1.25rem;
+        }
+        img {
+          width: 29px;
+          border-radius: 50%;
+        }
+        /* h3 {
+          font-size: 1.rem;
+        } */
+        .wallet .card {
+          background: #6951ff;
+          color: white;
+          padding: 0.75rem;
+          border-radius: 10px;
+          height: 10rem;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          box-shadow: 0 10px 20px #7e7e7e7d;
+
+          font-weight: 100;
+          margin-top: 15px;
+        }
+        .extra-card {
+          margin-top: 10px;
+        }
+        .span {
+          font-family: "Public Sans", sans-serif;
+        }
+
+        .la-cc-visa {
+          position: absolute;
+          right: 20px;
+          height: 50px;
+          top: 310px;
+        }
+
+        /* h5 {
+          position: absolute;
+          right: 20px;
+        } */
+
+        .transactions {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 30px;
+        }
+
+        .history1 {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          margin: 10px;
+
+          font-weight: 600;
+          font-size: small;
+        }
+
+        .menu {
+          position: fixed;
+          bottom: 0;
+
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 2rem;
+          width: 100vw;
+
+          background-color: white;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">
+          <h1><i class="lab la-stumbleupon-circle"></i>CashUP</h1>
+        </div>
+
+        <div class="avatar">
+          <img
+            src="https://www.w3schools.com/howto/img_avatar.png
+            "
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="wallet">
+        <h4>My Wallet</h4>
+
+        <!-- violet block -->
+        <div class="card">
+          <div class="top">
+            <h4><span>Gravity Bank</span></h4>
+            <h6><span>3.2490.90 eu</span></h6>
+          </div>
+
+          <div class="bottom">
+            <h3><span>Ivan Ivaniv</span></h3>
+          </div>
+        </div>
+
+        <div class="extra-card">
+          <h5>Dopamine Inc.</h5>
+          <i class="lab la-cc-visa"></i>
+          <h6>420.90 eu</h6>
+        </div>
+      </div>
+
+      <div class="transactions">
+        <div><h5>Recent transactions</h5></div>
+        <div><h6>View All</h6></div>
+      </div>
+
+      <div class="history">
+        <div class="history1">
+          <div>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/732px-Apple_logo_black.svg.png?20211218170823
+          "
+              alt=""
+            />Apple Store
+          </div>
+          <div>-40.99</div>
+        </div>
+
+        <div class="history1">
+          <div>
+            <img
+              src="https://www.w3schools.com/howto/img_avatar.png
+          "
+              alt=""
+            />Matthew
+          </div>
+          <div>+1,255.00</div>
+        </div>
+
+        <div class="history1">
+          <div>
+            <img
+              src="https://www.w3schools.com/howto/img_avatar.png
+          "
+              alt=""
+            />Jessica
+          </div>
+          <div>+40.50</div>
+        </div>
+
+        <div class="history1">
+          <div>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/356/356060.png
+        "
+              alt=""
+            />Discord Nitro
+          </div>
+          <div>-40.99</div>
+        </div>
+      </div>
+
+      <div class="menu">
+        <a href=""><i class="las la-home"></i></a>
+        <a href=""><i class="las la-inbox"></i></a>
+        <a href=""><i class="lab la-rocketchat"></i></a>
+        <a href=""><i class="las la-history"></i></a>
+      </div>
+    </div>
+  </body>
+</html>

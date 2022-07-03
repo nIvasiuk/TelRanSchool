@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Galery page</title>
+
+    <style>
+      :root {
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        /* nncjsncns */
+      }
+      .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .wrapper div {
+        background: url(https://www.wpbeginner.com/wp-content/uploads/2020/03/ultimate-small-business-resource-coronavirus.png);
+
+        background-size: cover;
+        background-position: center;
+
+        height: calc(100vw / 4);
+        width: calc(100vw / 4);
+
+        transition: all 0.2s ease-out;
+      }
+
+      .wrapper div:hover {
+        transform: rotate(30deg) scale(1.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- container -->
+    <div class="wrapper">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </body>
+</html>
