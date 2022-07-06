@@ -56,9 +56,17 @@
         text-decoration: none;
         color: rgb(66, 66, 66);
         /* width: 100%; */
-        padding: 1rem 0.5rem;
+        padding: 0.75rem;
         border-radius: 8px;
-        font-size: 0.9rem;
+
+        /* margin-bottom: 0.5rem; */
+        font-size: 0.75rem;
+        transition: all 0.2s ease-out;
+      }
+
+      /* для всех, но не последнего */
+      .menu-item:not(:last-child) {
+        margin-bottom: 0.5rem;
       }
 
       /* селектор вложенности , размер значка*/
@@ -69,7 +77,10 @@
 
       .menu-item.is-active {
         background: rgb(234, 199, 255);
-        font-weight: 500;
+        font-weight: 700;
+      }
+      .menu-item:hover {
+        background: rgb(255, 255, 255);
       }
     </style>
   </head>
@@ -85,14 +96,6 @@
         <div class="menu">
           <div class="menu-top">
             <a href="" class="menu-item is-sctive"
-              ><i class="lab la-dropbox"></i> Dashboard</a
-            >
-
-            <a href="" class="menu-item"
-              ><i class="lab la-dropbox"></i> Dashboard</a
-            >
-
-            <a href="" class="menu-item"
               ><i class="lab la-dropbox"></i> Dashboard</a
             >
 
