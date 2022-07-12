@@ -9,6 +9,7 @@
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap");
       * {
         margin: 0;
         padding: 0%;
@@ -82,6 +83,47 @@
       .menu-item:hover {
         background: rgb(255, 255, 255);
       }
+
+      .main {
+        width: calc(100% - 10rem);
+        padding: 1rem;
+      }
+
+      .hello {
+        margin-left: var(--nav-width);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 1.5rem 13.5rem 1.5rem;
+      }
+
+      .hello-search {
+        position: relative;
+        flex: 0 0 260px;
+        margin-left: 1.5rem;
+        background: rgb(217, 216, 216);
+        border-radius: 8px;
+        padding: 0.5rem;
+      }
+
+      .hello-search i  {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+             }
+
+      input {
+        padding-left:  1.25rem;
+        border: none;
+        outline: none;
+        background: none;
+      }
+
+      .hello-bell{
+        border-radius: 50%;
+        background: lightgray;
+      }
+
     </style>
   </head>
 
@@ -95,40 +137,49 @@
 
         <div class="menu">
           <div class="menu-top">
-            <a href="" class="menu-item is-sctive"
-              ><i class="lab la-dropbox"></i> Dashboard</a
+            <a href="" class="menu-item is-active">
+              <i class="las la-th-large"></i> Dashboard</a
             >
 
             <a href="" class="menu-item"
-              ><i class="lab la-dropbox"></i> Dashboard</a
+              ><i class="las la-chart-area"></i></i> Statistics</a
             >
 
             <a href="" class="menu-item"
-              ><i class="lab la-dropbox"></i> Dashboard</a
+              ><i class="las la-wallet"></i> My Wallet</a
             >
 
             <a href="" class="menu-item"
-              ><i class="lab la-dropbox"></i> Dashboard</a
+              ><i class="las la-exchange-alt"></i>Transfers</a
             >
           </div>
 
           <div class="menu-bottom">
             <a href="" class="menu-item is-sctive"
-              ><i class="lab la-dropbox"></i> Dashboard</a
+              ><i class="las la-question"></i> Support</a
             >
 
             <a href="" class="menu-item"
-              ><i class="lab la-dropbox"></i> Dashboard</a
+              ><i class="las la-cog"></i> Settings</a
             >
 
             <a href="" class="menu-item"
-              ><i class="lab la-dropbox"></i> Dashboard</a
+              ><i class="las la-sign-out-alt"></i> Log out</a
             >
           </div>
         </div>
       </div>
 
-      <div class="main"></div>
+      <div class="main">
+<div class="hello">
+  <div class="hello-nadiia"><h1>Hello, Nadiia</h1></div>
+  <div class="hello-search"><i class="las la-search"></i><input type="text" placeholder="Search"></div>
+  <div class="hello-bell"> <i class="las la-bell"></i></div>
+  <div class="hello-user"></div>
+
+</div>
+        
+      </div>
     </div>
   </body>
 </html>
