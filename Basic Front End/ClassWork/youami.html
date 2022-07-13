@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Youami webapp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
       * {
@@ -31,13 +33,20 @@
       .container {
         width: 60vw;
         height: 40vw;
+        display: flex;
+        flex-wrap: wrap;
       }
 
       .block {
         width: calc(100% / 3);
         height: calc(100% / 2);
-        color: #ffffff;
-        padding: 1rem;
+        color: #ffffff69;
+        padding: 2rem;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
 
       .block:nth-child(1) {
@@ -63,6 +72,49 @@
       .block:nth-child(6) {
         background: var(--color-6);
       }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .logo {
+        font-weight: 600;
+      }
+
+      .text {
+        font-weight: 400;
+        color: lightgray;
+        font-size: 0.75rem;
+      }
+
+      .is-upper {
+        text-transform: uppercase;
+      }
+
+      .titele {
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+      }
+
+      @media screen and (max-width: 768px) {
+        .container {
+          display: block;
+          height: auto;
+        }
+
+        .body {
+          height: auto;
+        }
+
+        .block {
+          width: 90vw;
+          height: 90vw;
+        }
+      }
     </style>
   </head>
   <body>
@@ -74,8 +126,88 @@
 
             <span class="text is-upper"> cashier app </span>
           </div>
-          <div class="center is-upper">
-            <div class="text">getting started</div>
+          <div class="center">
+            <div class="text is-upper">getting started</div>
+            <div class="titele">What type of busines shoud I choose?</div>
+            <div class="text">1 of 10</div>
+          </div>
+        </div>
+
+        <div class="text"># our favorit questions</div>
+      </div>
+      <div class="block">
+        <div class="main">
+          <div class="header">
+            <span class="logo"> youami </span>
+
+            <span class="text is-upper"> cashier app </span>
+          </div>
+          <div class="center">
+            <div class="text is-upper">getting started</div>
+            <div class="titele">What type of busines shoud I choose?</div>
+            <div class="text">1 of 10</div>
+          </div>
+        </div>
+
+        <div class="text"># our favorit questions</div>
+      </div>
+      <div class="block">
+        <div class="main">
+          <div class="header">
+            <span class="logo"> youami </span>
+
+            <span class="text is-upper"> cashier app </span>
+          </div>
+          <div class="center">
+            <div class="text is-upper">getting started</div>
+            <div class="titele">What type of busines shoud I choose?</div>
+            <div class="text">1 of 10</div>
+          </div>
+        </div>
+
+        <div class="text"># our favorit questions</div>
+      </div>
+      <div class="block">
+        <div class="main">
+          <div class="header">
+            <span class="logo"> youami </span>
+
+            <span class="text is-upper"> cashier app </span>
+          </div>
+          <div class="center">
+            <div class="text is-upper">getting started</div>
+            <div class="titele">What type of busines shoud I choose?</div>
+            <div class="text">1 of 10</div>
+          </div>
+        </div>
+
+        <div class="text"># our favorit questions</div>
+      </div>
+      <div class="block">
+        <div class="main">
+          <div class="header">
+            <span class="logo"> youami </span>
+
+            <span class="text is-upper"> cashier app </span>
+          </div>
+          <div class="center">
+            <div class="text is-upper">getting started</div>
+            <div class="titele">What type of busines shoud I choose?</div>
+            <div class="text">1 of 10</div>
+          </div>
+        </div>
+
+        <div class="text"># our favorit questions</div>
+      </div>
+      <div class="block">
+        <div class="main">
+          <div class="header">
+            <span class="logo"> youami </span>
+
+            <span class="text is-upper"> cashier app </span>
+          </div>
+          <div class="center">
+            <div class="text is-upper">getting started</div>
             <div class="titele">What type of busines shoud I choose?</div>
             <div class="text">1 of 10</div>
           </div>
