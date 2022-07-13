@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youami webapp</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+
+      :root {
+        --color-1: #303297;
+        --color-2: #ff4d4f;
+        --color-3: #303297;
+        --color-4: #2a79ff;
+        --color-5: #2a272b;
+        --color-6: #ffffff;
+        --main-bg: #2d273d;
+      }
+
+      body {
+        background: var(--main-bg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      /* BLOCK widht/heigth == 20vw  */
+      .container {
+        width: 60vw;
+        height: 40vw;
+      }
+
+      .block {
+        width: calc(100% / 3);
+        height: calc(100% / 2);
+        color: #ffffff;
+        padding: 1rem;
+      }
+
+      .block:nth-child(1) {
+        background: var(--color-1);
+      }
+
+      .block:nth-child(2) {
+        background: var(--color-2);
+      }
+
+      .block:nth-child(3) {
+        background: var(--color-3);
+      }
+
+      .block:nth-child(4) {
+        background: var(--color-4);
+      }
+
+      .block:nth-child(5) {
+        background: var(--color-5);
+      }
+
+      .block:nth-child(6) {
+        background: var(--color-6);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="block">
+        <div class="main">
+          <div class="header">
+            <span class="logo"> youami </span>
+
+            <span class="text is-upper"> cashier app </span>
+          </div>
+          <div class="center is-upper">
+            <div class="text">getting started</div>
+            <div class="titele">What type of busines shoud I choose?</div>
+            <div class="text">1 of 10</div>
+          </div>
+        </div>
+
+        <div class="text"># our favorit questions</div>
+      </div>
+    </div>
+  </body>
+</html>
